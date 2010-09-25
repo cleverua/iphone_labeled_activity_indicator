@@ -6,16 +6,16 @@ operation (a non determinated one though)
 
 ===Installation
 
-Just copy the LabeledActivityIndicatorView.h and LabeledActivityIndicatorView.m
+Just copy LabeledActivityIndicatorView.h and LabeledActivityIndicatorView.m
 files into your project. That's all.
 
 ===Usage
 
 See the accompanying Demo application for full usage example. All it does is
-simply initialize the component like this:
+simply initialize the component in your controller like this:
 
   - (void)viewDidLoad {
-	  self.activity = [[LabeledActivityIndicatorView alloc] initWithController:self andText:@"Loading..."];
+    self.activity = [[LabeledActivityIndicatorView alloc] initWithController:self andText:@"Loading..."];
     [super viewDidLoad];
   }
 
@@ -27,7 +27,7 @@ Or hide it:
 
   [self.activity show];
 
-=== LICENSE:
+===License
 
 (The MIT License)
 

@@ -4,7 +4,7 @@ Extends the native iPhone UIActivityIndicatorView to contain a text label as
 well. Thats make the new component be perfect to notify user about a long
 operation (a non determinated one though).
 
-[http://assets.cleverua.com/images/github/iphone_labeled_activity_indicator.png]
+http://assets.cleverua.com/images/github/iphone_labeled_activity_indicator.png
 
 ===Installation
 

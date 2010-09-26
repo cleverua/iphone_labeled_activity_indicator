@@ -9,7 +9,7 @@
 
 -(LabeledActivityIndicatorView *) initWithController:(UIViewController *)ctrl andText:(NSString *)text;
 {
-	self = [super initWithFrame:CGRectMake(0, 0, Size, Size)];
+  self = [super initWithFrame:CGRectMake(0, 0, Size, Size)];
 	
 	if (self) {
 		self.controller = ctrl;
@@ -37,7 +37,7 @@
     
     [self addSubview: label];
     [self addSubview: activity];
-
+    
 		[label release];
 		[activity release];
 	}
@@ -62,11 +62,11 @@
 }
 
 /*
--(void)touchesBegan: (NSSet *)touches withEvent:(UIEvent *)event
-{
-	[self hide];
-}
-*/
+ -(void)touchesBegan: (NSSet *)touches withEvent:(UIEvent *)event
+ {
+ [self hide];
+ }
+ */
 
 - (void)dealloc
 {

@@ -1,8 +1,10 @@
 ===iPhone Labeled Activity Indicator
 
 Extends the native iPhone UIActivityIndicatorView to contain a text label as
-well. That make the new component be perfect to notify user about a long
-operation (a non determinated one though) 
+well. Thats make the new component be perfect to notify user about a long
+operation (a non determinated one though).
+
+[http://assets.cleverua.com/images/github/iphone_labeled_activity_indicator.png]
 
 ===Installation
 
@@ -12,7 +14,7 @@ files into your project. That's all.
 ===Usage
 
 See the accompanying Demo application for full usage example. All it does is
-simply initialize the component in your controller like this:
+simply initializes the component in your controller like this:
 
   - (void)viewDidLoad {
     self.activity = [[LabeledActivityIndicatorView alloc] initWithController:self andText:@"Loading..."];
@@ -25,7 +27,7 @@ Once that's done you can display the component by calling this:
 
 Or hide it: 
 
-  [self.activity show];
+  [self.activity hide];
 
 ===License
 

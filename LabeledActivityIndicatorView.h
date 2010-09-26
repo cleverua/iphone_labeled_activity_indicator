@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 
 @interface LabeledActivityIndicatorView : UIView {
-	BOOL shown;
+  BOOL shown;
 	UIViewController *controller;
 }
 @property (nonatomic, retain) UIViewController *controller;
